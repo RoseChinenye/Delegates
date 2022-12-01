@@ -5,7 +5,11 @@
         static void Main(string[] args)
         {
             practice practice = new practice();
-            practice.Run();
+            //practice.Run();
+            
+            builtInDelegate builtInDelegate= new builtInDelegate(); 
+            builtInDelegate.Run();
+
             
         }
     }
